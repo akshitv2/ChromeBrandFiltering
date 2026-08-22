@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Product Brand Filter",
+  "version": "1.0",
+  "description": "Filters product list items based on brand name for Amazon.in and Myntra.",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.amazon.in/*",
+        "*://*.myntra.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["brands.json"],
+      "matches": [
+        "*://*.amazon.in/*",
+        "*://*.myntra.com/*"
+      ]
+    }
+  ]
+}
