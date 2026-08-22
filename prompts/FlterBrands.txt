@@ -1,0 +1,123 @@
+I need you to filter out good brands from this list of brands visible on myntra, ajio and other indian retail platforms excluding cheap junk brands.
+If you encounter a brand which is legit in another country but highly unlikely to be the same, exclude it.
+Provide the list simply with one brand on each line
+
+#
+4Flaunt(1)
+a
+AUGEN(20)
+AFERELLE(7)
+Arzonai(3)
+Artrue(1)
+AISLIN(1)
+ACCENTZ(1)
+b
+Bershka(3)
+BLACK JONES(2)
+Being Better(1)
+c
+Columbia(3)
+Converse(1)
+Chilli Beans(1)
+Carrera(1)
+d
+Dervin(2)
+David Martin(2)
+DukieKooky(1)
+Decathlon(1)
+e
+Elligator(15)
+EYMEN I(4)
+EYEMODE(3)
+Eyewearlabs(2)
+Eyejack(2)
+Eyedens(1)
+ERMINIO PALAMINO(1)
+f
+Fastrack(2)
+FUNGLASSES(1)
+French Accent(1)
+Framesvista(1)
+FLIKERTAG(1)
+Ferrari Scuderia(1)
+g
+goglassic(6)
+GRADE vision(1)
+h
+HRX by Hrithik Roshan(3)
+HAUTE SAUCE(2)
+HASHTAG EYEWEAR(1)
+HAMILTANO WINSTON(1)
+H&M(1)
+i
+IDEE(3)
+IFLASH(1)
+IDOR(1)
+j
+Just Lil Things(3)
+Jiebo(1)
+l
+LensKandy(2)
+Lacoste(1)
+m
+MacV(5)
+MAGNEQ(2)
+n
+Nike(1)
+New Balance(1)
+o
+OUDI(18)
+OPIUM(5)
+OAKLEY(2)
+ONE VIZION(1)
+OKNO(1)
+p
+PELLE LUXUR(15)
+Peter Jones Eyewear(6)
+PARK LINE(5)
+Provogue(3)
+POPPY(2)
+q
+QUE UNIVERSE(3)
+r
+Ray-Ban(8)
+RESIST EYEWEAR(7)
+Red Tape(6)
+RUGGINE(5)
+Royal Enfield(5)
+Roadster(3)
+ROYALTAIL(2)
+RICH CLUB(2)
+REDEX(1)
+RAWBARE(1)
+s
+SAM & MARSHALL(17)
+SPADEACES(9)
+SUNGLASSIC(8)
+Shisen Fox(6)
+SCOTT(6)
+SZN(3)
+STYLISH GUYS(3)
+summer dream(2)
+Specsmakers(2)
+SALTY(2)
+Stood(1)
+Steve Madden(1)
+Skechers(1)
+Salvatore Ferragamo(1)
+t
+Ted Smith(14)
+Timberland(5)
+Tom Ford(3)
+Tom Martin(1)
+u
+Urban Scissors(1)
+v
+Voyage(13)
+Vintage(1)
+Vincent Chase(1)
+w
+Woggles(4)
+Walrus(2)
+z
+ZAADRAN(6)

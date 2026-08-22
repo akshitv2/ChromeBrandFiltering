@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id = "rawQuery" placeholder="raw query" type="text" onsubmit="format()">
+<button onclick="format()">Format</button>
+<hr>
+<span id="filtered" style="display: none"></span>
+<span id="finalfilter"></span>
+</body>
+<script>
+    async function fetchAndFormat() {
+        const response = await fetch('data.json');
+        const data = await response.json();
+
+        // Assuming the array is under a property named 'items'
+        const items = data.items;
+
+        const formattedItems = items.map(item => String(item).replaceAll('&', '%26'));
+        const result = formattedItems.join('%2A');
+        console.log(result);
+        document.getElementById('filtered').innerHTML = formattedItems;
+    }
+    function format(){
+        console.log("Formatting");
+        console.log(document.getElementById('rawQuery').innerHTML);
+        document.getElementById('finalfilter').innerHTML = "?f=Brand%3A"+document.getElementById('filtered').innerHTML+"&rawQuery="+document.getElementById('rawQuery').value;
+    }
+
+    fetchAndFormat();
+</script>
+
+</html>
